@@ -8,18 +8,18 @@ export default function Hero() {
 
                 {/* Left Side: Copy */}
                 <div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#B8860B', marginBottom: '20px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: 'var(--primary)', marginBottom: '20px' }}>
                         <span style={{ fontSize: '1.2rem' }}>★★★★★</span>
-                        <span style={{ fontWeight: '600' }}>5.0 (243 reviews)</span>
+                        <span style={{ fontWeight: '600', color: '#666' }}>5.0 (243 reviews)</span>
                     </div>
                     <h1 style={{ fontSize: '4.5rem', marginBottom: '30px', maxWidth: '500px' }}>
-                        Innovative and Personalized <span style={{ fontStyle: 'italic', fontWeight: '300' }}>HVAC Solutions.</span>
+                        {siteConfig.heroTitle}
                     </h1>
 
                     {/* Decorative Path Element (SVG) */}
                     <div style={{ position: 'relative', marginTop: '40px' }}>
-                        <div style={{ width: '100%', height: '200px', backgroundColor: '#eee', borderRadius: '24px', position: 'relative', overflow: 'hidden' }}>
-                            <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ecb?auto=format&fit=crop&q=80&w=800" alt="Technician" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <div style={{ width: '100%', height: '350px', backgroundColor: '#eee', borderRadius: '24px', position: 'relative', overflow: 'hidden' }}>
+                            <img src="/images/hero_luxury_bathroom.jpg" alt="Luxury Plumbing" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 80%' }} />
                         </div>
                         {/* The floating wave line */}
                         <svg style={{ position: 'absolute', top: '50%', right: '-80px', width: '300px', height: '100px', zIndex: 1 }} viewBox="0 0 300 100">
@@ -61,7 +61,7 @@ export default function Hero() {
                     </div>
 
                     {/* Background blurred sphere for depth */}
-                    <div style={{ position: 'absolute', top: '-10%', right: '-10%', width: '300px', height: '300px', backgroundColor: 'rgba(255, 215, 0, 0.1)', filter: 'blur(80px)', borderRadius: '50%', zIndex: -1 }}></div>
+                    <div style={{ position: 'absolute', top: '-10%', right: '-10%', width: '300px', height: '300px', backgroundColor: 'rgba(156, 31, 46, 0.1)', filter: 'blur(80px)', borderRadius: '50%', zIndex: -1 }}></div>
                 </div>
 
             </div>

@@ -1,25 +1,27 @@
-import LuxuryHero from '../components/LuxuryHero';
-import BentoServices from '../components/BentoServices';
-import LuxuryDetails from '../components/LuxuryDetails';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import FeaturedServices from '../components/FeaturedServices';
 import Testimonials from '../components/Testimonials';
 import ServiceAreas from '../components/ServiceAreas';
+import Team from '../components/Team';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
-import { siteConfig } from '../config/site-config';
 
 export default function Home() {
     return (
         <main style={{ backgroundColor: '#fff' }}>
             <Navigation />
-            <LuxuryHero />
-            <BentoServices />
-            <LuxuryDetails />
+            <Hero />
+            <About />
+            <FeaturedServices />
             <Testimonials />
+            <Team />
             <ServiceAreas />
-            <Footer config={siteConfig} />
+            <Footer />
 
-            {/* Syne and Playfair Fonts */}
-            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
+            {/* Inter and Outfit Fonts */}
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet" />
         </main>
     );
 }
+

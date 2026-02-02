@@ -1,9 +1,9 @@
 export const theme = {
     colors: {
-        primary: '#FFD700', // The "Solar Yellow" from your reference
-        secondary: '#1A1A1A', // Deep dark for contrast
-        accent: '#003366', // Professional Navy
-        background: '#F8F9FA', // Off-white for that clean feel
+        primary: '#0076BD', // Ocean Blue
+        secondary: '#9C1F2E', // Deep Red
+        accent: '#00A3E0', // Coastal Blue
+        background: '#F8F9FA',
         text: '#333333',
         white: '#FFFFFF',
         error: '#E63946'

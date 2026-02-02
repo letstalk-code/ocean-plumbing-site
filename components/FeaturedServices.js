@@ -3,13 +3,13 @@ import { ChevronRight } from 'lucide-react';
 
 export default function FeaturedServices() {
     return (
-        <section style={{ padding: '100px 0', backgroundColor: '#1A1A3F', color: '#fff', borderRadius: '48px', margin: '0 20px' }}>
+        <section style={{ padding: '100px 0', backgroundColor: '#003366', color: '#fff', borderRadius: '48px', margin: '0 20px' }}>
             <div className="container">
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '60px' }}>
                     <div>
-                        <h2 style={{ fontSize: '3rem' }}>Top HVAC Services In<br />Lancaster CA</h2>
+                        <h2 style={{ fontSize: '3rem' }}>Premium Plumbing Services<br />on the Gulf Coast</h2>
                     </div>
-                    <button style={{ backgroundColor: '#FFD700', color: '#000', padding: '15px 30px', borderRadius: '50px', border: 'none', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <button style={{ backgroundColor: 'var(--accent)', color: '#fff', padding: '15px 30px', borderRadius: '50px', border: 'none', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '10px' }}>
                         Browse Services <ChevronRight size={18} />
                     </button>
                 </div>

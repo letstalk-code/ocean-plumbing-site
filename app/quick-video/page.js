@@ -1,5 +1,5 @@
 'use client';
-import { siteConfig } from '../../config/site-config';
+import { siteConfig } from '../config/site-config';
 import Link from 'next/link';
 
 export default function QuickVideo() {
@@ -14,10 +14,10 @@ export default function QuickVideo() {
             alignItems: 'center',
             justifyContent: 'center',
             padding: '40px 20px',
-            fontFamily: '"Syne", sans-serif'
+            fontFamily: '"Outfit", sans-serif'
         }}>
             <div style={{ maxWidth: '800px', width: '100%', textAlign: 'center' }}>
-                <img src={siteConfig.logoUrl} alt={siteConfig.businessName} style={{ height: '80px', marginBottom: '40px' }} />
+                <img src={siteConfig.logoUrl} alt={siteConfig.businessName} style={{ height: '140px', marginBottom: '40px', objectFit: 'contain' }} />
 
                 {/* Loom Video Placeholder */}
                 <div style={{
@@ -43,7 +43,7 @@ export default function QuickVideo() {
                 <div style={{ display: 'flex', gap: '20px', justifyContent: 'center' }}>
                     <Link href="/yes-build" style={{ textDecoration: 'none' }}>
                         <button style={{
-                            backgroundColor: brandColors.primary,
+                            backgroundColor: '#0076BD',
                             color: '#fff',
                             padding: '20px 40px',
                             borderRadius: '16px',
@@ -52,7 +52,7 @@ export default function QuickVideo() {
                             fontWeight: '700',
                             cursor: 'pointer',
                             transition: 'transform 0.2s ease',
-                            boxShadow: `0 10px 20px ${brandColors.primary}33`
+                            boxShadow: `0 10px 20px rgba(0, 118, 189, 0.2)`
                         }}>
                             YES — Finish & Put It Live
                         </button>
@@ -61,7 +61,7 @@ export default function QuickVideo() {
                     <Link href="/not-interested" style={{ textDecoration: 'none' }}>
                         <button style={{
                             backgroundColor: '#f1f5f9',
-                            color: brandColors.secondary,
+                            color: '#333',
                             padding: '20px 40px',
                             borderRadius: '16px',
                             border: 'none',
@@ -76,7 +76,7 @@ export default function QuickVideo() {
                 </div>
             </div>
 
-            <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
         </main>
     );
 }

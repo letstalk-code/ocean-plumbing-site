@@ -7,8 +7,8 @@ export default function About() {
             <div className="container" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '80px', alignItems: 'center' }}>
                 <div style={{ position: 'relative' }}>
                     <img
-                        src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800"
-                        alt="HVAC Team"
+                        src="/images/plumbing_expert_team.jpg"
+                        alt="Plumbing Experts"
                         style={{ width: '100%', height: '500px', objectFit: 'cover', borderRadius: '32px' }}
                     />
                 </div>
