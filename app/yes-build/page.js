@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { siteConfig } from '../config/site-config';
+import { siteConfig } from '../../config/site-config';
 
 export default function YesBuild() {
     const [isSubmitting, setIsSubmitting] = useState(false);

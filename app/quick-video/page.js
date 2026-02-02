@@ -1,5 +1,5 @@
 'use client';
-import { siteConfig } from '../config/site-config';
+import { siteConfig } from '../../config/site-config';
 import Link from 'next/link';
 
 export default function QuickVideo() {
