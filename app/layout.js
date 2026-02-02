@@ -19,6 +19,12 @@ export const metadata = {
         locale: 'en_US',
         type: 'website',
     },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Ocean Plumbing Services LLC | Coastal Excellence',
+        description: 'Elite plumbing and luxury bathroom renovations. Reliability, integrity, and quality.',
+        images: ['https://ocean-plumbing-site.vercel.app/images/hero_luxury_bathroom.jpg'],
+    },
 };
 
 export default function RootLayout({ children }) {
