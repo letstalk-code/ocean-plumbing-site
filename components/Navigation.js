@@ -8,7 +8,7 @@ export default function Navigation() {
                 <div style={{ display: 'flex', alignItems: 'center', gap: '40px' }}>
                     {/* Logo Placeholder */}
                     <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <img src={siteConfig.logoUrl} alt={siteConfig.businessName} style={{ height: '80px', objectFit: 'contain' }} />
+                        <img src={siteConfig.logoUrl} alt={siteConfig.businessName} style={{ height: '150px', objectFit: 'contain' }} />
                     </div>
 
                     <div style={{ display: 'flex', gap: '25px', fontWeight: '500', color: '#666' }}>
