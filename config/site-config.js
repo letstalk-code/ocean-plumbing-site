@@ -4,6 +4,10 @@ export const siteConfig = {
     phoneNumber: '(727) 678-6819',
     email: 'contact@oceanplumbingservices.com',
     logoUrl: '/images/ocean_plumbing_logo.png',
+    brandColors: {
+        primary: '#0076BD',
+        secondary: '#9C1F2E'
+    },
     heroTitle: 'Guarding your peace of mind with expert plumbing solutions.',
     heroFormTitle: 'Request Professional Service',
     aboutTitle: 'Your Trusted Plumbing Partners in Holiday & the Gulf Coast',

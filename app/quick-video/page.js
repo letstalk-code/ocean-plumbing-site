@@ -17,7 +17,7 @@ export default function QuickVideo() {
             fontFamily: '"Outfit", sans-serif'
         }}>
             <div style={{ maxWidth: '800px', width: '100%', textAlign: 'center' }}>
-                <img src={siteConfig.logoUrl} alt={siteConfig.businessName} style={{ height: '140px', marginBottom: '40px', objectFit: 'contain' }} />
+                <img src={siteConfig.logoUrl} alt={siteConfig.businessName} style={{ height: '180px', marginBottom: '40px', objectFit: 'contain' }} />
 
                 {/* Loom Video Placeholder */}
                 <div style={{
